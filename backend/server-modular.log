@@ -1,0 +1,58 @@
+INFO:     127.0.0.1:54581 - "GET /api/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51544 - "GET /api/scan/d64f7388-cc99-45ef-ad1f-e8c184fe6eda/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58165 - "GET /api/scan/1d0303c3-65f0-4bb8-b791-8f505e93887d/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51087 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57474 - "GET /api/dashboard/stats?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57850 - "GET /api/dashboard/stats?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51087 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54692 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54692 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52986 - "GET /api/scan/1d0303c3-65f0-4bb8-b791-8f505e93887d/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62539 - "GET /api/scan/7b0948ed-148a-4595-a095-bb721097ca13/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55336 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64120 - "GET /api/dashboard/stats?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55336 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64120 - "GET /api/dashboard/stats?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+2026-10-12 21:43:16,212 - root - INFO - Scanner visited 86 pages and tested 84 input fields for http://demo.testfire.net/
+2026-10-12 21:43:16,219 - root - INFO - Built-in scanner found 5 findings for http://demo.testfire.net/
+2026-10-12 21:43:16,640 - google_genai.chats - INFO - AFC is enabled with max remote calls: 10.
+INFO:     127.0.0.1:60170 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+2026-10-12 21:43:21,238 - google_genai.chats - INFO - AFC is enabled with max remote calls: 10.
+2026-10-12 21:43:24,023 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-12 21:43:24,121 - root - INFO - Successfully generated response using gemini-3-flash-preview
+2026-10-12 21:43:24,123 - root - INFO - Generated response for user anonymous
+INFO:     127.0.0.1:60170 - "POST /api/chat HTTP/1.1" 200 OK
+2026-10-12 21:43:28,171 - google_genai.chats - INFO - AFC is enabled with max remote calls: 10.
+2026-10-12 21:43:29,773 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-12 21:43:29,780 - root - INFO - Successfully generated response using gemini-3-flash-preview
+INFO:     127.0.0.1:51535 - "POST /api/scan?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64105 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51535 - "GET /api/dashboard/stats?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+2026-10-12 21:43:37,505 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-12 21:43:37,517 - root - INFO - Successfully generated response using gemini-3-flash-preview
+2026-10-12 21:43:37,519 - root - INFO - Generated response for user anonymous
+INFO:     127.0.0.1:60170 - "POST /api/chat HTTP/1.1" 200 OK
+2026-10-12 21:43:58,904 - google_genai.chats - INFO - AFC is enabled with max remote calls: 10.
+2026-10-12 21:44:01,618 - root - INFO - Scanner visited 86 pages and tested 84 input fields for http://demo.testfire.net/
+2026-10-12 21:44:01,623 - root - INFO - Built-in scanner found 5 findings for http://demo.testfire.net/
+2026-10-12 21:44:01,698 - google_genai.chats - INFO - AFC is enabled with max remote calls: 10.
+2026-10-12 21:44:06,990 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-12 21:44:06,997 - root - INFO - Successfully generated response using gemini-3-flash-preview
+2026-10-12 21:44:06,998 - root - INFO - Generated response for user anonymous
+INFO:     127.0.0.1:52820 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56538 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56538 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56538 - "GET /api/scan/d64f7388-cc99-45ef-ad1f-e8c184fe6eda/report HTTP/1.1" 200 OK
+2026-10-12 21:44:23,203 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-12 21:44:23,209 - root - INFO - Successfully generated response using gemini-3-flash-preview
+INFO:     127.0.0.1:63507 - "POST /api/scan?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59107 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63507 - "GET /api/dashboard/stats?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63337 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63337 - "GET /api/scans?user_id=776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63337 - "GET /api/user/profile/776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63337 - "GET /api/user/profile/776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63119 - "GET /api/scan/0f9e2026-3c7d-4f20-add7-7116757b1cd6/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56584 - "GET /api/user/profile/776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51647 - "GET /api/user/profile/776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51647 - "GET /api/user/profile/776777f9-08a6-4562-a11f-1337eb9779f9 HTTP/1.1" 200 OK
